@@ -104,6 +104,13 @@ body {
   color: black;
 }
 
+@media (max-width: 750px) {
+  .scene {
+    width: 23%;
+    height: 20vh;
+  }
+}
+
 .cards {
   width: 100%;
   height: 100%;
@@ -165,5 +172,17 @@ body {
 .cards:hover {
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
+}
+
+@media (max-width: 750px) {
+  .back .top {
+    font-size: 20px;
+  }
+  .back .center {
+    font-size: 45px !important;
+  }
+  .back .bottom {
+    font-size: 20px;
+  }
 }
 /*# sourceMappingURL=styles.min.css.map */

@@ -13,3 +13,11 @@
 .dark{
     color: black;
 }
+
+
+@media(max-width: 750px){
+    .scene{
+        width: 23%;
+        height: 20vh;
+    }   
+}

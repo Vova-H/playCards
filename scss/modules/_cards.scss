@@ -7,9 +7,6 @@
     -webkit-background-clip: text;
     
 
-
-
-
     .card {
         position: absolute;
         width: 100%;
@@ -54,4 +51,23 @@
     &:hover {
         transform: rotateY(180deg);
     }
+}
+
+
+@media(max-width: 750px){
+
+    .back{
+        .top{
+            font-size: 20px;
+        }
+
+        .center{
+            font-size: 45px !important;  
+        }
+
+        .bottom{
+            font-size: 20px;
+        }
+        
+    }   
 }
